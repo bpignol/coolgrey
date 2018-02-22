@@ -1,12 +1,53 @@
 /* recommandation on stackoverflow */
-body  {
-    background-image:    url(asset/coolgrey.jpg);
-    background-size:     cover;                      
-    background-repeat:   no-repeat; 
-    font-family: lato, monospace;             
+/* paletton  */
+
+body {
+    background-color: rgb(92, 105, 115);
+    color: white;   
+    font-size: 20px;              
+    font-family: Lato, monospace;  
+    padding: 3em;           
 }
-  .menu-item {
-    font-size: 30px;*/
+
+body#index  {
+    background-image:    url(asset/coolgrey.jpg);
+   /* background-size:     cover; */                     
+    background-repeat:   no-repeat;          
+}
+
+a {
+  color: rgb(19, 50, 83);
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+
+h1, footer {
+  letter-spacing: .05em;
+}
+
+footer {
+  background-color: rgb(115, 140, 166);
+  padding: 1em;
+  font-size: .8em;
+  text-align: center;
+}
+
+   .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  nav {
+  padding: 1em; 
+}
+
+.menu-item {
+    font-size: 30px;
     color : white;
     background-color: silver;
     padding: 20px;
@@ -20,18 +61,6 @@ body  {
     text-align: center;
   }
 
-   .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }
-
-.navibar {
-    margin: 10px;
-    padding: 0;
-    color: blue;
-}
 
 .cta-holder{ 
     width: 150px; /* div size */
