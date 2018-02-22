@@ -1,0 +1,45 @@
+/* recommandation on stackoverflow */
+body  {
+    background-image:    url(asset/bear.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat; 
+    font-family: lato, monospace;             
+}
+
+  .oui {
+    font-size: 30px;*/
+    color : white;
+    background-color: silver;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    text-align: center;
+  }
+
+   .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+.navibar {
+    margin: 10px;
+    padding: 0;
+    color: blue;
+}
+
+.cta-holder{ 
+    width: 150px; /* div size */
+    margin: 0 auto; /* div centered */
+}
+
+#cta {
+    width: 100%; /* button size equals div size */
+}
+    
