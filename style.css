@@ -1,12 +1,11 @@
 /* recommandation on stackoverflow */
 body  {
-    background-image:    url(asset/bear.jpg);
+    background-image:    url(asset/coolgrey.jpg);
     background-size:     cover;                      
     background-repeat:   no-repeat; 
     font-family: lato, monospace;             
 }
-
-  .oui {
+  .menu-item {
     font-size: 30px;*/
     color : white;
     background-color: silver;
