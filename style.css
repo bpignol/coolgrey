@@ -1,18 +1,29 @@
-/* recommandation on stackoverflow */
-/* paletton  */
+/* check advice on stackoverflow and paletton */
 
 body {
-    background-color: rgb(92, 105, 115);
-    color: white;   
+    color: rgb(92, 105, 115);   
     font-size: 20px;              
-    font-family: Lato, monospace;  
-    padding: 3em;           
+    font-family: Abel, monospace;           
 }
 
 body#index  {
     background-image:    url(asset/coolgrey.jpg);
-   /* background-size:     cover; */                     
+/*    background-size:     cover; */                     
     background-repeat:   no-repeat;          
+}
+
+.slogan {
+  background-color: black;
+  text-align: center;
+  color: white;   
+  font-size: 20px;
+  padding: 1em; 
+  margin: 0 auto;
+}
+
+#theslogan {
+  margin: 0px;
+
 }
 
 a {
@@ -45,6 +56,8 @@ footer {
   nav {
   padding: 1em; 
 }
+
+
 
 .menu-item {
     font-size: 30px;
