@@ -7,7 +7,7 @@ body {
 }
 
 body#index  {
-    background-image:    url(asset/coolgrey.jpg);
+    background-image:    url(asset/startcoolgrey.jpg);
 /*    background-size:     cover; */                     
     background-repeat:   no-repeat;          
 }
