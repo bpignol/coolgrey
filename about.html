@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <!-- CSS code -->
+
+    <!-- our CSS code -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- see tutorial https://glitch.com/edit/#!/intro-to-html?path=README.md:1:0 -->
-
+    <!-- sheet title -->
     <title>About Cool Grey</title>
+
+    <!--http://iconhandbook.co.uk/reference/examples/favicons/-->
+    <link rel="icon" type="image/x-icon" href="asset/Archive/svgs/favicon.ico" />
+
   </head>
+
+
+
   
   <body>
-       
+    <!--  ===========================================================================================-->
+
+    <!-- using bootstrap  grid layout for responsive -->
+    <div class="container-fluid" >
+
+    <!-- menu-->
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html" class="linkpale">Home</a>
     </nav>
-    
+
+
+    <!-- text -->
     <h1>About the Cool Grey project</h1>
- 
+    
     <main>
 
-    <div class="col-sm-2 "> 
-      <img class="responsive-image thick-green-border" alt="A cute orange cat lying on its back." src="https://bit.ly/fcc-relaxing-cat">
-    </div>
+    <!-- video-->
+      <div class="col-sm-2 "> 
+        <img class="responsive-image thick-green-border" alt="A cute orange cat lying on its back." src="https://bit.ly/fcc-relaxing-cat">
+      </div>
 
-    <div class="cta-holder">
-      <button id="cta" type="button" class="btn btn-success">Turn on the music</button>
-    </div>
-      
+    <!-- music -->
+      <div class="cta-holder">
+        <img class="responsive-image logogo" alt="logo cool grey" src="asset/Archive/svgs/play.svg">
+        <button id="cta" type="button" class="btn btn-success">Turn on the music</button>
+      </div>
+     
+    <!-- text -->  
       <p>
       This github.io website was launched in Berlin at the end of February 2018, as a code learning project, to showcase a series of canvas developed with P5 JS.
       </p>
 
       <p>
-      In the short atmospheric video above (playing only in desktop view), we follow individuals from the tech community on their quiet strolls through Berlin. It is better experienced with the music produced by Capt.Lovelace, who used to live in Berlin. <a href="https://soundcloud.com/capt-lovelace/railroad-club">Discover more on her SoundCloud.</a>
+      In the short atmospheric video above (playing only in desktop view), we follow individuals from the tech community on their quiet strolls through Berlin. It is better experienced with the music produced by Capt.Lovelace, who used to live in Berlin. <a href="https://soundcloud.com/capt-lovelace/railroad-club" class="linkpale">Discover more on her SoundCloud.</a>
       </p>
 
       <p>
-      The logo is inspired by the Bauhaus aesthetic, founded nearly 100 years before this project and briefly taught in Berlin. Our design is a tribute to the values promoted by this current, advocating experiments, mixing disciplines, and simplifying forms. <a href="https://www.bauhaus100.de/de/index.html">Discover more on Bauhaus 100.</a>
+      The logo is inspired by the Bauhaus aesthetic, founded nearly 100 years before this project and briefly taught in Berlin. Our design is a tribute to the values promoted by this current, advocating experiments, mixing disciplines, and simplifying forms. <a href="https://www.bauhaus100.de/de/index.html" class="linkpale">Discover more on Bauhaus 100.</a>
       </p>
 
       <p>
-      The flat-sided typography was a souvenir of the Botanischer Garten metro sign. <a href="https://berlintypography.wordpress.com/2017/05/09/the-many-faces-of-the-s1/">Discover more on Berlin Typography.</a>
+      The flat-sided typography was a souvenir of the Botanischer Garten metro sign. <a href="https://berlintypography.wordpress.com/2017/05/09/the-many-faces-of-the-s1/" class="linkpale">Discover more on Berlin Typography.</a>
       </p>
 
     </main>

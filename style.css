@@ -1,5 +1,13 @@
-/* check advice on stackoverflow and paletton */
+/* check advice on stackoverflow, paletton, https://glitch.com/edit/#!/intro-to-html?path=README.md:1:0 */
+
+/*fonts */
 @import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Teko');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/*body styles --------------------------------------------------------*/
 
 body {
     color: rgb(92, 105, 115);   
@@ -8,39 +16,66 @@ body {
 }
 
 body#index  {
-    background-image:    url(asset/startcoolgrey.jpg);
-/*    background-size:     cover; */                     
+    background-image:    url(asset/grey.jpg);
+ /*   background-size:     cover; */                     
     background-repeat:   no-repeat;          
 }
 
-.slogan {
-  background-color: black;
-  text-align: center;
-  color: white;   
-  font-size: 20px;
-  padding: 1em; 
-  margin: 0 auto;
-}
+/*links style--------------------------------------------------------*/
 
-hr{
-  border-top-color: white;
-  border-top-width: 10px;
-}
-
-.short-line {
-  display: inline-block;
-  border-left: 5px solid white;
- /* width: 100%;*/
-}
-
-
-a {
+.linkdark {
   color: rgb(19, 50, 83);
+}
+
+.linkpale {
+  color: rgb(115, 140, 166);
+}
+
+.linkwhite {
+  color: white;
 }
 
 a:hover {
   font-weight: bold;
 }
+
+/*slogan style--------------------------------------------------------*/
+
+.slogan {
+  background-color: black;
+  text-align: center;
+  color: white;   
+  font-size: 15px;
+  padding: 1em; 
+  margin: 0 auto;
+}
+
+hr{
+  border-color: white;
+  border-width: 10px;
+}
+
+.short-line-a {
+  display: inline-block;
+  border-left: 5px solid white;
+}
+
+.short-line-b {
+  display: inline-block;
+  border-left: 30px solid white;
+}
+
+.short-line-c {
+  display: inline-block;
+  border-left: 70px solid white;
+}
+
+.short-line-d {
+  display: inline-block;
+  border-left: 70px solid white;
+}
+
+/* footer --------------------------------------------------------*/ 
 
 
 h1, footer {
@@ -48,40 +83,66 @@ h1, footer {
 }
 
 footer {
-  background-color: rgb(115, 140, 166);
+  background-color: rgba(115, 140, 166, 0.5);
   padding: 1em;
   font-size: .8em;
   text-align: center;
 }
 
-   .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
+/* menu --------------------------------------------------------*/ 
+
+.logogo {
     width: 100%;
+}
+
+.menu-item {
+    font-size: 20px;
+ /* background-color: silver;*/
+    padding: 20px;
   }
 
+.box {
+/* border-style: solid;
+    border-color: white;
+    border-width: 5px;*/
+    text-align: center;
+  }
+
+#menu-switch {
+    width: 20px;
+    height: 20px;
+    background-color: silver;
+    position: absolute;
+    margin: 20px;
+    right: 0px;
+    z-index: 100;
+}
+
+/*https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints*/
+@media (max-width: 576px) {
+  .logogo {
+  max-width: 50px;
+  }
+  #menu-switch {
+  display: block;  
+  }
+  #menu-SM {
+  display: none;  
+  }
+}
+
+@media (min-width: 576px) {
+  #menu-switch {
+  display: none;  
+  }
+}
+
+/*for the about page at the moment */
   nav {
   padding: 1em; 
 }
 
-
-
-.menu-item {
-    font-size: 30px;
-    color : white;
-    background-color: silver;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  .box {
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
-    text-align: center;
-  }
+/* menu --------------------------------------------------------*/ 
 
 
 .cta-holder{ 

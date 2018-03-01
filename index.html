@@ -7,82 +7,94 @@
     <!-- our CSS code -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- font api -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Open Sans Condensed" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+    <!-- utility javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- sheet title -->
     <title>cool grey</title>
 
+    <!--http://iconhandbook.co.uk/reference/examples/favicons/-->
+    <link rel="icon" type="image/x-icon" href="asset/Archive/svgs/favicon.ico" />
+
   </head>
 
+
+
+
+
   <body id="index">
-      <!-- Home section ===========================================================================================-->
+  <!-- Home section ===========================================================================================-->
 
-     <!-- IDs help to navigate to sections, for instance in a a paralax page -->
-      <section id="home">
-        <div class="background-element">
-        <!--   <img src="asset/bear.jpg"  alt="bear relaxing in huggs">    A revoir    -->
-        </div>
-
+  <!-- IDs help to navigate to sections, for instance in a a paralax page -->
+  <section id="home">
+  
     <!-- using bootstrap  grid layout for responsive -->
-<div class="container-fluid">
-  <div class="row menu-item">
+    <div class="container-fluid" >
 
-    <div class="col-sm-2 "> 
-      <img class="responsive-image thick-green-border" alt="A cute orange cat lying on its back." src="https://bit.ly/fcc-relaxing-cat">
+
+    <!-- navbar for small screens ===============================================================================-->
+    <div id="menu-switch" onclick="menuClick();">
+    </div>
+
+
+    <div class="row menu-item" id="menu-SM">
+
+    <div class="col-sm-2"> 
+      <img class="responsive-image logogo" alt="logo cool grey" src="asset/Archive/svgs/v4.svg">
     </div>
 
     <div class="col-sm-2 box">
-      <a href="#"> Home </a>
+      <a href="#" class="linkwhite"> Home </a>
     </div>
 
     <div class="col-sm-2 box">
-      <a href="about.html">About</a>
+      <a href="about.html" class="linkdark">About</a>
     </div>
 
     <div class="col-sm-2 box">
-      <a href="#"> Shapes </a>
+      <a href="#" class="linkdark"> Shapes </a>
     </div>
 
     <div class="col-sm-2 box">
-      <a href="#">Shapes for thought </a>
+      <a href="#" class="linkdark">Shapes for thought </a>
     </div>
 
     <div class="col-sm-2 box">
-      <a href="#"> Readcode Club </a>
+      <a href="#" class="linkdark"> Readcode Club </a>
     </div>
 
    </div>
-</div>
 
-        <!-- Slogan sentence -->
+   <!-- slogan sentence ===============================================================================-->
         <div class="col-sm-3 box slogan">
 <p>
------------------------cool-
+<hr class="short-line-d"/>
+cool
 <br/>
-<hr class="short-line"/>code<hr/>
+<hr class="short-line-a"/>
+code
+<hr/>
 <br/>
------------------------------
+in grey
+<hr class="short-line-b"/>
+Berlin
+<hr class="short-line-c"/>
 <br/>
-in grey---------Berlin-------
-<br/>
------------------------------
+<hr/>
 </p>
         </div>
 
-         <!-- using bootstrap buttons -->
+  <!-- CTA  ===============================================================================-->
         <div class="cta-holder">
            <button id="cta" type="button" class="btn btn-success">Enjoy</button>
         </div>
+  
+</section>
 
-       
 
-      </section>
 
-      <!-- snippets section ===========================================================================================-->
+
+  <!-- snippets section ===========================================================================================-->
       <section id="snippets">
         
       </section>
@@ -91,7 +103,7 @@ in grey---------Berlin-------
       <section id="footer">
         
       </section>
-
+</div>
       <!-- Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
