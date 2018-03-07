@@ -9,11 +9,11 @@ function menuClick (){
     // case 0 : class row is set by default as flex, initial status before clicking
   if (disp == "flex") {
     document.getElementById('menu-words').style.display = "none";
-    document.getElementById('menu-icon').style.backgroundImage = "url(asset/archive/svgs/switch1.svg)";
+    document.getElementById('menu-carre').style.backgroundImage = "url(asset/archive/svgs/switch1.svg)";
     // case 1 : dont show words + show icon 1
   } else {
     document.getElementById('menu-words').style.display = "flex";
-    document.getElementById('menu-icon').style.backgroundImage = "url(asset/archive/svgs/switch2.svg)";
+    document.getElementById('menu-carre').style.backgroundImage = "url(asset/archive/svgs/switch2.svg)";
     // case 2 : show words + show icon 2
   }
 }

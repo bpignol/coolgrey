@@ -26,22 +26,60 @@ body#index  {
 .linkdark {
   color: rgb(19, 50, 83);
 }
-
 .linkdark:hover {
   color: rgb(19, 50, 83);
-
 }
+
 
 .linkpale {
   color: rgb(115, 140, 166);
 }
+.linkpale:hover {
+  color: rgb(115, 140, 166);
+}
+
 
 .linkwhite {
   color: white;
 }
+.linkwhite:hover {
+  color: white;
+}
+
 
 a:hover {
   font-weight: bold;
+}
+
+/* corps ------------------------------------------------------*/
+
+#home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#corps {
+  display: flex;
+  align-items: center;
+  flex-direction : column;
+}
+
+/* CTA --------------------------------------------------------*/ 
+
+.cta {
+  background-color: rgb(21,45,50);
+  color : white;
+  border-color: white;
+  border-width: 3px;
+}
+
+button:hover {
+  font-size: 15px; 
+  font-weight: bold; 
+  background-color: rgba(255,255,255,0.4);
+  color : rgb(21,45,50);
+  border-color: rgb(21,45,50);
+  border-width: 5px;
 }
 
 /*slogan style--------------------------------------------------------*/
@@ -97,14 +135,25 @@ footer {
 
 /* menu --------------------------------------------------------*/ 
 
-.logogo {
+.all {
     width: 100%;
+}
+
+.logogo{
+    max-width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .menu-item {
     font-size: 20px;
  /* background-color: silver;*/
     padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
   }
 
 .box {
@@ -114,7 +163,7 @@ footer {
     text-align: center;
   }
 
-#menu-icon {
+#menu-carre {
     width: 35px;
     height: 35px;
     background-color: silver;
@@ -128,10 +177,7 @@ footer {
 /*https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints*/
 /* show the menu icon based on screen size */
 @media (max-width: 576px) {
-  .logogo {
-  max-width: 50px;
-  }
-  #menu-icon {
+  #menu-carre {
   display: block;  
   }
   #menu-words {
@@ -140,25 +186,18 @@ footer {
 }
 
 @media (min-width: 576px) {
-  #menu-icon {
+  .cta{
+    min-width: 200px;
+ }
+
+ #menu-carre {
   display: none;  
+  }
+
+  .logogo{
+    max-width: 100px;
   }
 }
 
-/*for the simple about page */
-/*  nav {
-  padding: 1em; */
-}
 
-/* menu --------------------------------------------------------*/ 
-
-
-.cta-holder{ 
-    width: 150px; /* div size */
-    margin: 0 auto; /* div centered */
-}
-
-#cta {
-    width: 100%; /* button size equals div size */
-}
     

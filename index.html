@@ -21,7 +21,6 @@
 
 
 
-
   <body id="index">
   <!-- Home section ===========================================================================================-->
 
@@ -32,16 +31,25 @@
     <div class="container-fluid" >
 
 
+
+ <!-- logo ====================================================================-->
+
+    <div class="col-sm-2"> 
+      <img class="responsive-image all logogo" alt="logo cool grey" src="asset/Archive/svgs/v4.svg">
+    </div>
+  
+
     <!-- navbar icon for small screens ====================================================================-->
     <a href="#"> 
-     <div id="menu-icon" onclick="menuClick();"></div>
+     <div id="menu-carre" onclick="menuClick();"></div>
     </a>
+
 
     <!-- navbar words for big screens  ======================================================================-->
     <div id="menu-words" class="row menu-item">
 
-    <div class="col-sm-2"> 
-      <img class="responsive-image logogo" alt="logo cool grey" src="asset/Archive/svgs/v4.svg">
+    <div class="col-sm-2 box">
+      <a href="#"> </a>
     </div>
 
     <div class="col-sm-2 box">
@@ -66,6 +74,9 @@
 
    </div>
 
+  
+<div id="corps">
+
    <!-- code to draw the slogan ===============================================================================-->
 <!--         <div class="col-sm-3 box slogan">
 <p>
@@ -86,13 +97,20 @@ Berlin
 
     <div class="col-sm-3"> 
       <img class="responsive-image" alt="slogan cool grey" src="asset/slogan.jpg">
-      </div>
-        </div>
+    </div>
+
 
   <!-- CTA  ===============================================================================-->
-        <div class="cta-holder">
-           <button id="cta" type="button" class="btn btn-success">Enjoy</button>
-        </div>
+    <!-- purple rain -->
+      <div class="col-sm-2 box">
+        <button type="button" class="cta btn all">
+          Enjoy !
+        </button>
+      </div>
+</div>
+
+</div>
+
   
 </section>
 
@@ -100,12 +118,12 @@ Berlin
 
 
   <!-- snippets section ===========================================================================================-->
-      <section id="snippets">
+  <section id="snippets">
         
-      </section>
+  </section>
 
       <!-- footer section ========================================================================================-->
-      <section id="footer">
+  <section id="footer">
 
     <footer>
       <p>
@@ -113,11 +131,14 @@ Berlin
       </p>
     </footer>
         
-      </section>
+  </section>
+
+
+
 
       <!-- bootstrap section =====================================================================================-->
 
-</div>
+
       <!-- Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
