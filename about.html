@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- our CSS code -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- utility javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
 
     <!-- sheet title -->
     <title>About Cool Grey</title>
@@ -22,10 +27,48 @@
     <!-- using bootstrap  grid layout for responsive -->
     <div class="container-fluid" >
 
-    <!-- menu-->
-    <nav>
+    <!-- simple menu to home -->
+<!--     <nav>
       <a href="index.html" class="linkpale">Home</a>
-    </nav>
+    </nav> -->
+
+    <!-- navbar icon for small screens ====================================================================-->
+    <a href="#"> 
+     <div id="menu-icon" onclick="menuClick();"></div>
+    </a>
+
+    <!-- navbar words for big screens  ======================================================================-->
+    <div id="menu-words" class="row menu-item">
+
+    <div class="col-sm-2"> 
+      <img class="responsive-image logogo" alt="logo cool grey" src="asset/Archive/svgs/v4.svg">
+    </div>
+
+    <div class="col-sm-2 box">
+      <a href="index.html" class="linkwhite"> Home </a>
+    </div>
+
+    <div class="col-sm-2 box">
+      <a href="about.html" class="linkdark">About</a>
+    </div>
+
+    <div class="col-sm-2 box">
+      <a href="#" class="linkdark"> Shapes </a>
+    </div>
+
+    <div class="col-sm-2 box">
+      <a href="#" class="linkdark">Shapes for thought </a>
+    </div>
+
+    <div class="col-sm-2 box">
+      <a href="#" class="linkdark"> Readcode Club </a>
+    </div>
+
+   </div>
+
+
+
+
 
 
     <!-- text -->
@@ -68,5 +111,11 @@
         Thanks for having visited us.
       </p>
     </footer>
+
+          <!-- Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>

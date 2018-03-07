@@ -27,6 +27,11 @@ body#index  {
   color: rgb(19, 50, 83);
 }
 
+.linkdark:hover {
+  color: rgb(19, 50, 83);
+
+}
+
 .linkpale {
   color: rgb(115, 140, 166);
 }
@@ -109,38 +114,40 @@ footer {
     text-align: center;
   }
 
-#menu-switch {
-    width: 20px;
-    height: 20px;
+#menu-icon {
+    width: 35px;
+    height: 35px;
     background-color: silver;
     position: absolute;
     margin: 20px;
     right: 0px;
     z-index: 100;
+    background-image: url(asset/archive/svgs/switch1.svg); /*image before any click action*/
 }
 
 /*https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints*/
+/* show the menu icon based on screen size */
 @media (max-width: 576px) {
   .logogo {
   max-width: 50px;
   }
-  #menu-switch {
+  #menu-icon {
   display: block;  
   }
-  #menu-SM {
+  #menu-words {
   display: none;  
   }
 }
 
 @media (min-width: 576px) {
-  #menu-switch {
+  #menu-icon {
   display: none;  
   }
 }
 
-/*for the about page at the moment */
-  nav {
-  padding: 1em; 
+/*for the simple about page */
+/*  nav {
+  padding: 1em; */
 }
 
 /* menu --------------------------------------------------------*/ 
