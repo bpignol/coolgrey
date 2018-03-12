@@ -17,3 +17,5 @@ function menuClick (){
     // case 2 : show words + show icon 2
   }
 }
+
+

@@ -199,5 +199,19 @@ footer {
   }
 }
 
+/* menu --------------------------------------------------------*/ 
 
+#music-play {
+    width: 100px;
+    height: 100px;
+    background-image: url(asset/Archive/svgs/play.svg); /*image before any click action*/
+    background-repeat:   no-repeat; 
+}
+
+#music-pause{
+    width: 100px;
+    height: 100px;
+    background-image: url(asset/Archive/svgs/pause.svg); /*image before any click action*/
+    background-repeat:   no-repeat; 
+}
     
