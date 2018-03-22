@@ -11,6 +11,8 @@ function Drop() {
 
   this.show = function() {
     stroke(138, 43, 226);
+    strokeWeight(5);
+    console.log("working")
     line(this.x, this.y, this.x, this.y+10);
   }
 }

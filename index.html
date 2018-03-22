@@ -4,8 +4,8 @@
 
     <!-- P% JS-->
     <script src="p5.min.js" charset="utf-8" type="text/javascript"></script>
-    <script src="sketch.js" charset="utf-8" type="text/javascript"></script>
     <script src="drop.js" charset="utf-8" type="text/javascript"></script>
+    <script src="sketch.js" charset="utf-8" type="text/javascript"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -28,6 +28,8 @@
 
 
   <body id="index">
+
+  <div id="canvas-holder"></div>
   <!-- Home section ===========================================================================================-->
 
   <!-- IDs help to navigate to sections, for instance in a a paralax page -->
@@ -38,25 +40,25 @@
 
 
 
- <!-- logo ====================================================================-->
+<!-- header ====================================================================-->
 
-    <div class="col-sm-2 margin"> 
+<div id="header" class="row margin"> 
+
+   <!-- logo ====================================================================-->
+
+    <div class="col-sm-2"> 
       <img class="responsive-image all logogo" alt="logo cool grey" src="asset/Archive/svgs/v4.svg">
     </div>
   
-
-    <!-- navbar icon for small screens ====================================================================-->
+   
+   <!-- navbar icon for small screens ====================================================================-->
     <a href="#"> 
      <div id="menu-carre" onclick="menuClick();"></div>
     </a>
 
 
     <!-- navbar words for big screens  ======================================================================-->
-    <div id="menu-words" class="row menu-item margin">
-
-    <div class="col-sm-2 box">
-      <a href="#"> </a>
-    </div>
+    <div id="menu-words" class="col-sm-10 menu-item">
 
     <div class="col-sm-2 box">
       <a href="#" class="linkwhite"> Home </a>
@@ -80,7 +82,16 @@
 
    </div>
 
-  
+
+
+ 
+</div>
+
+
+
+
+<!-- corps  ===============================================================================-->
+
 <div id="corps">
 
    <!-- code to draw the slogan ===============================================================================-->
