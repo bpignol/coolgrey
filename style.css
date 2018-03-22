@@ -21,6 +21,11 @@ body#index  {
     background-repeat:   no-repeat;          
 }
 
+.margin {
+  margin : 20px;
+  padding: none;
+}
+
 /*links style--------------------------------------------------------*/
 
 .linkdark {
