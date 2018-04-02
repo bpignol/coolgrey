@@ -2,11 +2,6 @@
 <html>
   <head>
 
-    <!-- P% JS-->
-    <script src="p5.min.js" charset="utf-8" type="text/javascript"></script>
-    <script src="drop.js" charset="utf-8" type="text/javascript"></script>
-    <script src="sketch.js" charset="utf-8" type="text/javascript"></script>
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -119,8 +114,9 @@ Berlin
 
   <!-- CTA  ===============================================================================-->
     <!-- purple rain -->
+
       <div class="col-sm-2 box margin">
-        <button type="button" class="cta btn all">
+        <button id="purpleRainBtn" type="button" class="cta btn all">
           Enjoy !
         </button>
       </div>
@@ -151,6 +147,12 @@ Berlin
   </section>
 
 
+
+    <!-- P% JS =====================================================================================-->
+     <!-- link P5 at the end because the rain ID is not defined in the head -->  
+    <script src="p5.min.js" charset="utf-8" type="text/javascript"></script>
+    <script src="drop.js" charset="utf-8" type="text/javascript"></script>
+    <script src="sketch.js" charset="utf-8" type="text/javascript"></script>
 
 
       <!-- bootstrap section =====================================================================================-->
