@@ -8,7 +8,7 @@ var backgroundImg;
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent('canvas-holder'); // in order to have the canvas starting a the top
-  backgroundImg = loadImage ("asset/plant.jpg");
+  backgroundImg = loadImage ("asset/light.jpg");
 }
 
 function draw() {
